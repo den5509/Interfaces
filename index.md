@@ -101,6 +101,9 @@ curl -sSL https://shipyard-project.com/deploy | bash -sDeploying Shipyard
 ```bash
 docker run -d -p 8282:8282 --name admiral vmware/admiral
 ```
+
+После загрузки и запуска контейнера можно заходить на Web-страничку интерфейса. Далее необходимо проделать процедуру подключения своих контейнеров, подробнее об этом написано [здесь.](https://github.com/vmware/admiral/wiki/User-guide#configure-existing-container-docker-host "Configure Docker Host")
+
 ![alt]({{"/Снимок экрана от 2017-11-26 23-30-57.png" | absolute_url}}) Рисунок 16 — Admiral - Обще-доступные репозитории
 
 ![alt]({{"/Снимок экрана от 2017-11-27 02-23-02.png" | absolute_url}}) Рисунок 17 — Шаблоны приложений
